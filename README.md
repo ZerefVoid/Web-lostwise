@@ -35,38 +35,3 @@ client/src/
   pages/             one file per page
   pages/admin/       Admin (dashboard) and ReviewComplaint
 ```
-
-## API endpoints
-
-```
-POST /api/auth/signup
-POST /api/auth/login
-POST /api/auth/logout
-GET  /api/auth/me
-GET  /api/categories
-GET  /api/reports
-GET  /api/reports/mine
-GET  /api/reports/:id
-POST /api/reports
-POST /api/reports/:id/withdraw
-POST /api/reports/:id/claims
-PUT  /api/reports/:id
-GET  /api/claims/:id
-GET  /api/claims/:id/messages
-POST /api/claims/:id/messages
-POST /api/claims/:id/choose
-POST /api/claims/:id/reject
-POST /api/claims/:id/cancel-handover
-POST /api/claims/:id/handover
-GET  /api/notifications
-GET  /api/leaderboard
-POST /api/complaints
-GET  /api/profile
-GET  /api/admin/dashboard
-GET  /api/admin/complaints/:id
-POST /api/admin/complaints/:id/review
-POST /api/admin/complaints/:id/take-over
-GET  /api/admin/claims/:cid/messages
-POST /api/admin/complaints/:id/decide
-POST /api/admin/accounts/:id
-```
